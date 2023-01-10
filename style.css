@@ -1,34 +1,20 @@
 
 
-/*Alinhando os elementos dentro da header*/
-#cabecalhoprincipal{
-    background-color: aqua;
+#background{
+    background: aqua;
     height: 200px;
 }
 
-#menuprincipal{
-    background-color: red;
-    height: 60px;
+#titulo{
+    color: rebeccapurple;
+    font-size: 150px;
 }
 
-#secaoprincipal{
-    background-color: green;
-    min-height: 400px;
-
+#titulo{
+    color: goldenrod;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-#asideprincipal{
-    background-color: yellow;
-    min-height: 400px;
-}
-
-#rodapeprincipal{
-    background-color:grey;
-    height: 60px;
-}
-
-
-/*Formatando a repsonsidade de alguns itens*/
 
 @media screen and (max-width: 576px){
     #cabecalhoprincipal{
